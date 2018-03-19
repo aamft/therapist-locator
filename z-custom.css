@@ -1,0 +1,101 @@
+/* z-custom.scss */
+/* _header.scss */
+#auxiliary-container .search-container-sm {
+  display: none !important; }
+
+.header-top-container .header-container {
+  width: 100%;
+  max-width: 100%;
+  padding: 0px;
+  margin: 0px; }
+
+#masterLogoArea {
+  float: none;
+  position: relative;
+  margin: 10px 0; }
+
+.tllogo {
+  text-align: center;
+  height: 50px; }
+  .tllogo a {
+    line-height: 50px;
+    font-size: 50px;
+    text-decoration: none;
+    color: #990000; }
+
+.aamftlogo {
+  position: absolute;
+  right: 50px;
+  top: 5px; }
+  .aamftlogo img {
+    height: 50px !important; }
+
+.HomePageFullWidthArea + #masterContentArea {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 0; }
+
+.onex10 .row1 {
+  display: none; }
+.onex10 .row2 .col-sm-12, .onex10 .row3 .col-sm-12 {
+  max-width: 1200px;
+  margin: auto;
+  float: none; }
+.onex10 .row.row2 {
+  background: center no-repeat url("/Images/tl/couch-vase-1920x550.jpg"); }
+.onex10 .row4, .onex10 .row5, .onex10 .row6, .onex10 .row7, .onex10 .row8, .onex10 .row9, .onex10 .row10 {
+  max-width: 1200px;
+  margin: auto; }
+
+.homeforms {
+  height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center; }
+  .homeforms > div {
+    width: 100%; }
+    .homeforms > div + div {
+      display: none; }
+  .homeforms > div:last-child {
+    display: block;
+    position: absolute;
+    bottom: 3%; }
+  .homeforms h2 {
+    border-bottom: none;
+    text-shadow: 0 0 3px #fff;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+    margin: 0; }
+  .homeforms form {
+    text-align: center;
+    margin-top: 0;
+    background: rgba(0, 0, 0, 0.65);
+    padding: 35px 0; }
+    .homeforms form input[type="submit"] {
+      display: block;
+      margin: 20px auto 0 auto; }
+  .homeforms [id*="Panel_regions"] {
+    text-align: center; }
+    .homeforms [id*="Panel_regions"] button {
+      border: 1px solid #000;
+      background: #fff;
+      /*rgba(70,96,170,0.75);*/
+      color: #000;
+      margin: 0 1%;
+      padding: 7px 17px;
+      border-radius: 4px; }
+
+.homeCountryList {
+  display: none; }
+
+/*
+@import "_oldcss.scss";
+@import "_navigation.scss";
+@import "_interior";
+@import "_homepage.scss";
+@import "_sidebar.scss";
+@import "_t2-landingPage.scss";
+*/
+
+/*# sourceMappingURL=z-custom.css.map */

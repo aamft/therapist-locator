@@ -1,0 +1,124 @@
+/*=== HOMEPAGE FORMS ===*/
+
+
+
+/*== OLD ===*/
+/*
+.homeforms:before{
+  content: "";
+  display: block;
+  background: #efefef url("/iMIS15/Images/Therapist-Locator/couch-vase-1920x550.jpg") center top no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+}
+#hd, #masterContentArea, #masterFooterContent, #masterFooterCopyright > div, .SliderContent{
+  width: 100%;
+  xmin-width: 960px;
+}
+.WebPartZone{
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  xmax-width: 960px;
+}
+.homeforms{
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  height: 400px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.homeforms > .iMIS-WebPart{
+  width: 100%;
+}
+.homeforms h2{
+  display: none;
+}
+[id*="Panel_form"]{
+  display: flex !important;
+  xmax-width: 1200px;
+  justify-content: space-between;
+  margin: 0px auto;
+}
+.homeforms form{
+  position: relative;
+	xwidth: 545px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.homeforms input[type="search"], .homeforms input[type="text"], .homeforms select{
+  xwidth: 500px;
+  height: 43px;
+  border: 1px solid #0d47a1;
+  border-radius: 5px 0px 0px 5px;
+  padding: 0px;
+  box-sizing: content-box;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+}
+.homeforms input[type="submit"]{
+  width: 45px;
+  height: 45px;
+  border-radius: 0px 5px 5px 0px;
+  box-shadow: none;
+  border: 1px solid #0d47a1;
+  background: #0d47a1 url("https://www.aamft.org/iMIS15/Images/Therapist-Locator/search-icon-white.png") center no-repeat;
+  background-size: 80%;
+  color: transparent;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+}
+.homeforms input[type="text"] + input[type="submit"], .homeforms select + input[type="submit"]{
+  position:absolute;
+  top: 0px;
+  right: 0px;
+}
+.homeforms form + form{
+  display: flex;
+  justify-content: flex-end;
+}
+*/
+
+/*=== HOMEPAGE REGION SELECTION BUTTON ===*/
+/*
+[id*="ciregions_Panel_regions"]{
+  text-align: center;
+}
+
+[id*="ciregions_Panel_regions"] button {
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    border: 2px solid #fff !important;
+    padding: 5px 15px;
+    margin: 0px 10px;
+    width: 250px;
+    font-size: 16px;
+    font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.5s ease;
+}
+[id*="ciregions_Panel_regions"] button:hover {
+    background: rgba(0,0,0,0.8);
+}
+*/
+
+/*=== HOMEPAGE FORM REGION FORM SELECTOR ===*/
+/*
+.homeforms > div{
+  display: none;
+}
+.homeforms > div:last-child{
+	display: block;
+	position: absolute;
+	bottom: 15%;
+}
+table[id*="oscountries"]{
+  display: none;
+}
+*/

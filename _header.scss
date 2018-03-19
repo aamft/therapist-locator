@@ -1,0 +1,37 @@
+/* _header.scss */
+
+#auxiliary-container .search-container-sm{
+	display: none !important;
+}
+
+.header-top-container .header-container{
+	width: 100%;
+	max-width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+#masterLogoArea{
+  float: none;
+  position: relative;
+  margin: 10px 0;
+}
+.tllogo{
+  text-align: center;
+  height: 50px;
+
+  a{
+	  line-height: 50px;
+	  font-size: 50px;
+	  text-decoration: none;
+	  color: #990000;
+	}
+}
+.aamftlogo{
+  position: absolute;
+  right: 50px;
+  top: 5px;
+
+  img{
+	  height: 50px !important;
+	}
+}

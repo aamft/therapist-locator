@@ -1,0 +1,81 @@
+.HomePageFullWidthArea + #masterContentArea{
+	width: 100%;
+	max-width: 100%;
+	margin-top: 0;
+}
+.onex10 .row{
+
+	&1{
+		display: none;
+	}
+	&2, &3{
+		
+		.col-sm-12{
+			max-width: 1200px;
+			margin: auto ;
+			float: none;
+		}
+	}
+	&.row2{
+		background: center no-repeat url("/Images/tl/couch-vase-1920x550.jpg");
+	}
+ 	&4, &5, &6, &7, &8, &9, &10{
+		max-width: 1200px;
+		margin: auto;
+	}
+}
+
+.homeforms{
+	height: 400px;
+	position: relative;
+	display: flex;
+	align-items: center;
+
+	> div{
+		width: 100%;
+
+		+ div{
+			display: none;
+		}
+	}
+	> div:last-child{
+		display: block;
+		position: absolute;
+		bottom: 3%;
+	}
+	h2{
+		border-bottom: none;
+		text-shadow: 0 0 3px #fff;
+		text-align: center;
+		background: rgba(255,255,255,0.80);
+		font-weight: bold;
+		margin: 0;
+	}
+	form{
+		text-align: center;
+		margin-top: 0;
+		background: rgba(0,0,0,0.65);
+		padding: 35px 0;
+
+		input[type="submit"]{
+			display: block;
+			margin: 20px auto 0 auto;
+
+		}
+	}
+	[id*="Panel_regions"]{
+		text-align: center;
+
+		button{
+			border: 1px solid #000;
+			background: #fff; /*rgba(70,96,170,0.75);*/
+			color: #000;
+			margin: 0 1%;
+			padding: 7px 17px;
+			border-radius: 4px;
+		}
+	}
+}
+.homeCountryList{
+	display: none;
+}

@@ -1,0 +1,238 @@
+/* _oldcss.scss */
+
+
+/*===== SITEWIDE =====*/
+/*form{
+  height: auto;
+}
+*/
+/*===== HEADER =====*/
+#hd #Menu{
+  display: none;
+}
+#masterLogoArea{
+  float: none;
+  position: relative;
+  margin: 10px 0;
+}
+.tllogo{
+  text-align: center;
+  height: 50px;
+}
+.aamftlogo{
+  position: absolute;
+  right: 50px;
+  top: 5px;
+}
+.aamftlogo img{
+  height: 50px;
+}
+.tllogo a{
+  line-height: 50px;
+  font-size: 50px;
+  text-decoration: none;
+  color: #990000;
+}
+
+
+
+/*=== PROFILE PAGE ===*/
+.prof .row > [class*="col-"]{
+  float: left;
+  padding: 0 7.5px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.prof .row > [class*="col-"] img{
+  max-width: 100%;
+  height: auto;
+}
+.prof .visible-xs-block{
+  display: none;
+}
+
+.prof [class*="col-"][class*="3"]{
+  width: 25%;
+}
+.prof [class*="col-"][class*="4"]{
+  width: 33.33%;
+}
+.prof [class*="col-"][class*="8"]{
+  width: 66.66%;
+}
+.prof [class*="col-"][class*="9"]{
+  width: 75%;
+}
+.prof .row > [class*="col-"][class*="12"]{
+  width: 100%;
+}
+.prof h3{
+  font-weight: 500;
+  color: #000;
+  font-size: 125%;
+  margin-top: 15px;
+}
+h2{
+  margin-bottom: 15px;
+}
+.btn.phone{
+  display: inline !important;
+  text-align: left;
+  background-color: transparent;
+  color: #000;
+  font-size: 16px;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.btn.phone a{
+  text-decoration: none;
+}
+.pro-contact > :nth-child(7), .pro-contact > :nth-child(8){
+  display: none;
+}
+h2.link a.web{
+  width: 100%;
+}
+h2.link a{
+  text-align: center;
+}
+.prof .pic > img{
+  xwidth: 100%;
+  xheight: auto;
+}
+
+
+/*=== HOMEPAGE INTRO ===*/
+.homeintro h2{
+  margin-top: 20px;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.homeintro{
+  font-size: 16px;
+  line-height: 130%;
+}
+.homeintro li{
+  margin-bottom: 7.5px;
+}
+
+/*=== FOOTER ALIGNMENT ===*/
+#masterFooterCopyright *{
+  color: #fff;
+}
+#ste_container_FooterCopyright{
+  xmax-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0px 40px;
+}
+#masterFooterContent{
+  display: none;
+}
+
+/*=== SEARCH RESULTS PAGES ===*/
+[id*="srtoplinks"]{
+  display: flex;
+  justify-content: space-between;
+}
+.btn-rts{
+  font-weight: bold;
+  text-decoration: none;
+}
+.btn-rts:before{
+  content: "";
+  display: inline-block;
+  width: 0; 
+  height: 0; 
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent; 
+  border-right:7px solid #2883b2; 
+  position: relative;
+  left: -3px;
+}
+.btn-tos{
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*=== INTERNATIONAL CTA ===*/
+[id*="intercta"]{
+  margin: 30px 0px 10px;
+}
+[id*="intercta"] h2{
+  font-weight: 600;
+}
+[id*="intercta"] a{
+  font-weight: bold;
+  text-decoration: none;
+}
+[id*="intercta"] a:hover{
+  text-decoration: underline;
+}
+
+/*=== TOS AGREEMENT MODAL ====*/
+[id*="tosol"]{
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(0,0,0,0.5);
+}
+[id*="tosol"] .ContentItemButtonPanel{
+  display: none;
+}
+.tosmod{
+  xmax-width: 850px;
+  border-radius: 10px;
+  background: #fff;
+  padding: 25px;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.6);
+}
+.tosmod p, .tosmod h2, .tosmod h3{
+  color: #333 !important;
+}
+.tosmod h3{
+  font-size: 120%;
+  font-weight: 600;
+}
+.tosmod .body{
+  max-height: 350px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.tosmod .footer{
+  padding-top: 25px;
+  text-align: right;
+}
+.tosmod button{
+  padding: 8px 25px !important;
+  border-radius: 7px;
+  font-size: 120%;
+  font-weight: 600;
+}
+[id*="tosol"]{
+  display: none;
+}
+.blur3{
+  filter: blur(3px);
+}
+.tosmod button{
+  padding: 8px 25px !important;
+  border-radius: 7px;
+  font-size: 120%;
+  font-weight: 600;
+}
+[id*="tosol"]{
+  display: none;
+}
+.blur3{
+  filter: blur(3px);
+}
