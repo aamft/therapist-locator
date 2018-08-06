@@ -17,12 +17,13 @@
   display: none;
 }
 .tosmod{
-  xmax-width: 850px;
   border-radius: 10px;
   background: #fff;
   padding: 25px;
   box-sizing: border-box;
   box-shadow: 0px 5px 15px rgba(0,0,0,0.6);
+  display: block;
+  position: static;
 }
 .tosmod p, .tosmod h2, .tosmod h3{
   color: #333 !important;
