@@ -6,7 +6,7 @@ jQuery().ready(function(){
 	if (thisHereCookie!="1"){
 
 		//display the overlay and blur results list on newer browsers
-		jQuery('#masterContentArea').css('filter','blur(3px)');
+		jQuery('#masterContentArea').css('filter','blur(5px)');
 		jQuery('[id*="tosol"]').show().css('display','flex');
 
 		//tos accepted button clicked

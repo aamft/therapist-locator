@@ -89,6 +89,67 @@
 .homeCountryList {
   display: none; }
 
+/* _termsOfService.scss */
+/*=== TOS AGREEMENT MODAL ====*/
+[id*="tosol"] {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5); }
+
+[id*="tosol"] .ContentItemButtonPanel {
+  display: none; }
+
+.tosmod {
+  xmax-width: 850px;
+  border-radius: 10px;
+  background: #fff;
+  padding: 25px;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6); }
+
+.tosmod p, .tosmod h2, .tosmod h3 {
+  color: #333 !important; }
+
+.tosmod h3 {
+  font-size: 120%;
+  font-weight: 600; }
+
+.tosmod .body {
+  max-height: 350px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 15px;
+  box-sizing: border-box; }
+
+.tosmod .footer {
+  padding-top: 25px;
+  text-align: right; }
+
+.tosmod button {
+  padding: 8px 25px !important;
+  border-radius: 7px;
+  font-size: 120%;
+  font-weight: 600; }
+
+[id*="tosol"] {
+  display: none; }
+
+.tosmod button {
+  padding: 8px 25px !important;
+  border-radius: 7px;
+  font-size: 120%;
+  font-weight: 600; }
+
+[id*="tosol"] {
+  display: none; }
+
 /* revert */
 /*
 @import "_oldcss.scss";
