@@ -14,7 +14,7 @@ jQuery().ready(function(){
 
 			//create cookie
 			//document.cookie="tosc=1; expires=Thu, 23 Jul 2017 12:00:00 GMT; domain=therapistlocator.net; path=/";		
-			setCookie('tosc', 1, 14);
+			setCookie('tltos', 1, 14);
 
 			//hide the overlay and unblur the results list
 			jQuery('#masterContentArea').css('filter','blur(0px)');
