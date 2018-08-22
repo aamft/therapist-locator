@@ -8,7 +8,7 @@ jQuery(document).ready(function() {
 		asdf.preventDefault();
 		jQuery('.homeforms [id*="formca"], .homeforms [id*="formos"]').parent().fadeOut(350).promise().done(function(){
 		  jQuery('.homeforms [id*="formus"]').parent().fadeIn(350);
-	  });
+		});
 	});
 	jQuery('.homeforms #btnca').click(function(asdf){
 		console.log('can');
@@ -16,15 +16,18 @@ jQuery(document).ready(function() {
 		asdf.preventDefault();
 		jQuery('.homeforms [id*="formus"], .homeforms [id*="formos"]').parent().fadeOut(350).promise().done(function(){
 		  jQuery('.homeforms [id*="formca"]').parent().fadeIn(350);
-	  });
+		});
 	});
 	jQuery('.homeforms #btnos').click(function(asdf){
 		console.log('os');
 		asdf.stopPropagation();
 		asdf.preventDefault();
+		location.href='https://www.therapistlocator.net/tl/Therapist-Finder-by-country.aspx';
+		/*
 		jQuery('.homeforms [id*="formca"], .homeforms [id*="formus"]').parent().fadeOut(350).promise().done(function(){
 		  jQuery('.homeforms [id*="formos"]').parent().fadeIn(350);
-	  });
+		});
+		*/
 });
 /*=== HOMEPAGE OVERSEAS DROPDOWN BUILDER ===*/
 jQuery('table[id*="oscountries"] tbody tr').each(function(){
